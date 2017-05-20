@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        {% load staticfiles %}
+        <link rel="stylesheet" href="{% static 'timeDisplay_app/style.css' %}"media="screen" title="no title"  charset="utf-8">
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1>The current time and date:</h1>
+            <h2>{{ date }}</h2>
+            <h2>{{ time }}</h2>
+        </div>
+    </body>
+</html>
